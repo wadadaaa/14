@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         app.innerHTML = `
                   <h1 class="text-4xl font-bold text-gray-800 mb-6 title">Svetochka! <br> 
-                  will you be my valentine?</h1>
+                  Will you be my valentine?</h1>
                   <p class="text-xl text-gray-600 mb-10">Choose wisely, I can't wait to hear from you!</p>
                   <img class="h-[200px]" src="https://media.tenor.com/vmvaMX3F-3IAAAAi/hehehehe.gif" alt="Bear with Roses" />
                   <div class="flex space-x-4 buttons">
