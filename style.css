@@ -1,0 +1,71 @@
+body,
+html {
+  height: 100%;
+  padding: auto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7bdbe;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "onum" 1;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  padding: 5px;
+}
+
+h1,
+p {
+  margin: 0 0 20px;
+}
+
+.bear-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+button {
+  border: 2px solid transparent; /* Add a border to make buttons distinguishable */
+  padding: 20px 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f9f9f9;
+  transition: transform 0.2s ease;
+  color: #110606; /* Default text color for better contrast on white background */
+}
+
+.yes-button {
+  color: #f9f9f9;
+  background-color: #ff5a5f; /* Keep the text color for "Yes" button to maintain its distinct look */
+  border-color: #e7e7e7; /* Adding a border color to distinguish the button */
+}
+
+.no-button {
+  color: #f9f9f9;
+  background-color: #555; /* Adjust as needed for contrast */
+  border-color: #e7e7e7; /* A lighter border for the "No" button if desired */
+}
+
+button:hover {
+  transform: scale(1.1);
+}
