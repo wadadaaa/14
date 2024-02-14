@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const buttonText = phrases[Math.min(noCount, phrases.length - 1)];
   
         app.innerHTML = `
-                  <h1 class="text-4xl font-bold text-gray-800 mb-6 title">Светочка! <br> 
+                  <h1 class="text-4xl font-bold text-gray-800 mb-6 title">Svetochka! <br> 
                   will you be my valentine?</h1>
                   <p class="text-xl text-gray-600 mb-10">Choose wisely, I can't wait to hear from you!</p>
                   <img class="h-[200px]" src="https://media.tenor.com/vmvaMX3F-3IAAAAi/hehehehe.gif" alt="Bear with Roses" />
